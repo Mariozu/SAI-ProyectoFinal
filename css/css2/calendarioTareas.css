@@ -1,0 +1,26 @@
+ul{
+  list-style: none;
+
+}
+
+
+.medio{
+    margin-top: -10px;
+    width: 1000px;
+    /*margin: auto;*/
+    color:black;
+    /*z-index: 5;*/
+    position:absolute;
+    left:50%;
+    margin-left:-422px;
+    /*border: 1px solid black;*/
+}
+.select2-container {
+    margin-top: .5%; 
+    margin-left:40%;
+    position: absolute; 
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+

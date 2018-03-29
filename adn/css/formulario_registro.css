@@ -1,0 +1,124 @@
+div.box{
+   margin-top:30px;
+   padding:50px;
+   -webkit-box-shadow: 0px 0px 20px 7px rgba(0,0,0,0.56);
+   //border: 3px double #990000; 
+   // border: 10px ridge #6666cc; 
+}
+input[name="apellidop"]{
+    margin-left: 425px;
+    margin-top: -60px;
+    position: absolute;
+}   
+ 
+
+input[name="cel"]{
+    
+    margin-left: 425px;
+    margin-top: -60px;
+    position: absolute;
+} 
+/*datosTaller*/
+  input[name="rfc"]{
+    
+    margin-left: 425px;
+    margin-top: -60px; 
+    position: absolute;
+}   
+input[name="colonia"]{
+    margin-left: 425px;
+    margin-top: -60px;
+    position: absolute;
+}   
+input[name="telefono"]{  
+    margin-left: 425px;
+    margin-top: -60px;
+    position: absolute;
+}
+
+input[name="municipio"]{
+    
+    margin-left: 425px;
+    margin-top: -60px;
+    position: absolute;
+} 
+
+/*BOTONES */
+.boton {  
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    background-color: #0a548b;
+    border: 2px solid #2a6c9b;
+    color: white;
+    -webkit-border-radius: 5px;
+    
+}
+.ubicacion h1{
+    font-family:Arial;
+    font-size: 15pt;
+    text-decoration: underline;
+    margin-left: 20px;
+    margin-top: 65px;
+}
+#mapa{
+    
+    width:650px;
+    height:300px;
+    margin:auto;
+    margin-top: 15px;
+    position: relative;
+}
+
+
+
+/*====================================para animacion del email====================================================*/
+
+
+
+
+
+div#Error{
+
+	background-image:url(../img/no.jpg);
+
+	background-repeat:no-repeat;
+
+	background-position:left; 
+
+	color:#FF0000; 
+
+	padding-left:33px; 
+
+	height:25px; 
+
+	padding-top:6px;
+
+	padding-right:10px;
+
+	}
+
+div#Success{
+
+	background-image:url(../img/yes.jpg);
+
+	background-repeat:no-repeat;
+
+	background-position:left; 
+
+	color:#669933; 
+
+	padding-left:33px; 
+
+	height:25px; 
+
+	padding-top:6px;
+
+	padding-right:10px;
+
+	}
+
+
+
+
+

@@ -1,0 +1,204 @@
+/*linea 0*/
+select{
+	width:200px;
+	margin-left: 10px;
+	margin-top: 100px;
+}
+/*linea 1*/
+label[name="plan"]{
+	margin-left:257px;
+}
+label[name="actual"]{
+	margin-left:80px;
+}
+label[name="interrumpido"]{
+	margin-left:80px;
+}
+label[name="motivo"]{
+	margin-left:80px;
+}
+
+/*primera linea planeacion*/
+label[name="planeacion"]{
+	margin-left:75px;
+}
+input[name="planeacion_p"]{
+	margin-top: 30px;
+	margin-left:63px;
+	width:70px;
+}
+input[name="planeacion_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="planeacion_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="planeacion_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*segunda linea diseño*/
+label[name="diseno"]{
+	margin-left:111px;
+}
+input[name="diseno_p"]{
+	margin-left:64px;
+	width:70px;
+}
+input[name="diseno_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="diseno_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="diseno_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*tercera linea diseño*/
+input[name="r_diseno_p"]{
+	margin-left:64px;
+	width:70px;
+}
+input[name="r_diseno_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="r_diseno_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="r_diseno_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*cuarta linea codificacion*/
+label[name="codificacion"]{
+margin-left:67px;
+}
+input[name="codificacion_p"]{
+	margin-left:61px;
+	width:70px;
+}
+input[name="codificacion_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="codificacion_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="codificacion_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*quinta linea codificacion*/
+input[name="r_codificacion_p"]{
+	margin-left:63px;
+	width:70px;
+}
+input[name="r_codificacion_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="r_codificacion_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="r_codificacion_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*sexta linea compilacion*/
+label[name="compilacion"]{
+margin-left:67px;
+}
+input[name="compilacion_p"]{
+	margin-left:60px;
+	width:70px;
+}
+input[name="compilacion_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="compilacion_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="compilacion_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*septima linea testeo*/
+label[name="testeo"]{
+	margin-left:115px;
+}
+input[name="testeo_p"]{
+	margin-left:61px;
+	width:70px;
+}
+input[name="testeo_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="testeo_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="testeo_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*octava linea Postmortem*/
+label[name="postmortem"]{
+margin-left:68px;
+}
+input[name="postmortem_p"]{
+	margin-left:62px;
+	width:70px;
+}
+input[name="postmortem_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="postmortem_i"]{
+	margin-left:85px;
+	width:70px;
+}
+input[name="postmortem_m"]{
+	margin-left:60px;
+	width:150px;
+}
+
+/*novena linea total*/
+label[name="total"]{
+	margin-left:130px;
+}
+input[name="total_p"]{
+	margin-left:63px;
+	width:70px;
+}
+input[name="total_a"]{
+	margin-left:57px;
+	width:70px;
+}
+input[name="total_i"]{
+	margin-left:85px;
+	width:70px;
+}
+
+/*button*/
+input[name="Guardar"]{
+	margin-left:750px;
+}

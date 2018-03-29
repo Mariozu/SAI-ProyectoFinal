@@ -1,0 +1,174 @@
+
+
+ /*es donde estara todo los php del programa*/
+.medio{
+    padding-top: 100px;
+    width: 880px;
+    margin-left:30%;
+    
+}
+ul{
+  list-style: none;
+
+}
+.select2-container {
+    margin-top: .5%; 
+    margin-left:40%;
+    position: absolute; 
+    display: inline-block;
+    zoom: 1;
+    vertical-align: middle;
+}
+
+/*------------------------------*/
+/*Lista desarrolladores*/
+
+
+
+div#tablaCentral{
+	position:relative;
+	z-index:1;
+	position:relative;
+	margin-right:auto;
+	margin-top:50px; 
+}
+
+	
+#texto_perfil_mini h1{
+	padding-top:20px;
+	color:black;
+	margin-top:1px;
+	margin-left:1px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#texto_perfil_mini h3{
+	color:black;
+	margin-top:1px;
+	margin-left:1px;
+	font-size: 15px;
+	text-align: center;
+}
+
+span.ui-icon.ui-icon-closethick{
+	display:none;
+}
+
+
+ 
+
+#listasDesarrolladores ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+#listasDesarrolladores li {
+  font: 200 20px/1.5 Helvetica, Verdana, sans-serif;
+  border-bottom: 1px solid #ccc;
+}
+ 
+#listasDesarrolladores li:last-child {
+  border: none;
+}
+ 
+#listasDesarrolladores li a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 200px;
+ 
+  -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+  -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+  transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+ 
+#listasDesarrolladores li:hover {
+  font-size: 20px;
+  background: #f6f6f6;
+  cursor:pointer;
+}
+
+
+
+/*LIDER HERRAMIENTA*//*/////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#lider_herramienta{
+	padding-left: 100px;
+	z-index:100;
+	position:fixed;
+	right: 0;
+	cursor:pointer;
+}
+#lider_herramienta img{
+	margin:5px;
+	width:80%;
+}
+#lider_herramienta li{
+	background-color: #DFDFDF ;
+	list-style:none;
+	height:50px;
+	width:50px;
+}
+#lider_herramienta h4{
+	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#lider_herramienta span{
+	/* Container properties */
+	/*background-color: rgb();*/
+	width: 0;
+	right:100%;
+	top:0;
+	height:50px;
+	padding:0;
+	position:absolute;
+	overflow:hidden;
+	/* Text properties */
+	font-family:'Myriad Pro',Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	letter-spacing:0.6px;
+	white-space:nowrap;
+	line-height:39px;	
+
+	z-index: -10;
+	/* CSS3 Transition: */
+	-webkit-transition: 0.5s;
+}
+
+#lider_herramienta a{
+	opacity:.8;
+	height:50px;
+	width:50px;
+	display:block;
+	position:relative;
+}
+
+/* General hover styles */
+
+#lider_herramienta a:hover span{  
+	padding-top: 0;
+	width:200px;	
+	overflow:visible; }
+
+#lider_herramienta a:hover{
+	opacity:1;
+	text-decoration:none;
+	-moz-box-shadow:0 0 5px black;
+	-webkit-box-shadow:0 0 5px black;
+	box-shadow:0 0 5px black;
+	}
+#lider_herramienta .lider_herramienta_opcion span{
+	background-color: rgb(0,99,144);
+	opacity: .7;
+
+
+}

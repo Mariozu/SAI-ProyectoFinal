@@ -1,0 +1,48 @@
+.tabs{
+
+width: 600px;
+margin: 60px auto;
+
+
+}
+
+.tabs-nav{
+
+padding: 0;
+list-style: none;
+overflow: auto;
+margin: 0;
+
+}
+
+.tabs-nav li{
+
+
+background: -webkit-linear-gradient(top,#fff,#eee);
+margin-right: 5px;
+float:left;
+border-radius: 5px;
+padding: 5px 10px;
+}
+
+.tabs-nav li:hover{
+
+
+background: -webkit-linear-gradient(top,#eee,#fff);
+
+}
+
+.tabs-nav a{
+
+
+text-decoration: none;
+
+}
+
+.content{
+
+padding:  10px;
+background: silver;
+width: 900px;
+
+}

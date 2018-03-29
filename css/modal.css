@@ -1,0 +1,95 @@
+
+
+
+#dialog_bajar .contenido_modal{
+    overflow: auto;
+    height: 100%;
+    margin-top:80px;
+    text-align: center;
+	
+
+}
+
+.modalDialog .contenido_modal{
+    margin-top:13%;
+}
+
+.contenido_modal form{
+    width: 40%;
+    display: inline-block;
+}
+
+.contenido_modal form input:hover {
+    
+}
+.modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.modalDialog .cabezera_modal{
+
+    color:white;
+    font-size:1.3em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    margin-left: 30%;
+    position: absolute;
+    width: 100%;
+    top: 15px;
+    background: #3C3939;
+}
+.modalDialog .cabezera_modal a{
+    margin-left: 92%;
+}
+.modalDialog > div {
+    border-top: 30px solid none;
+
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 0px 0px 10px 10px;
+    background: #fff;
+    background: -moz-linear-gradient(#fff, #d9d9d9);
+    background: -webkit-linear-gradient(#fff, #d9d9d9);
+    background: -o-linear-gradient(#fff, #d9d9d9);
+}
+.cerrar {
+    
+  margin-right: 3px;
+  margin-top: 1px;
+  background: #606061;
+  color: #FFFFFF;
+  line-height: 25px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 24px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+.cerrar:hover {
+    background: #00d9ff;
+}

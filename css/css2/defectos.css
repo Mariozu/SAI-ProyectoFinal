@@ -1,0 +1,74 @@
+select[name="drop_1"]{
+	margin-top:100px;
+	margin-left:150px;
+}
+/**/
+label[name="tipo_defecto"]{
+	margin-left:150px;
+	font-size:1.3em;
+	font-weight:bold;
+}
+select[name="tipo_defecto"]{
+	margin-left:20px;
+}
+/**/
+label[name="fecha"]{
+	margin-left:50px;
+	font-size:1.3em;
+	font-weight:bold;
+}
+input[name="fecha1"]{
+	margin-left:20px;
+}
+/**/
+label[name="inyectado"]{
+	margin-left:200px;
+	font-weight:bold;
+	font-size:1.3em;
+}
+select[name="inyectado"]{
+	margin-left:25px;
+}
+/**/
+label[name="eliminado"]{
+	margin-left:48px;
+	font-weight:bold;
+	font-size:1.3em;
+}
+select[name="eliminado"]{
+	margin-left:14px;
+}
+/**/
+label[name="mensaje"]{
+	margin-left:150px;
+	font-weight:bold;
+	font-size:1.3em;
+}
+/**/
+label[name="tiempo"]{
+	margin-left:220px;
+	font-weight:bold;
+	font-size:1.3em;
+}
+input[name="tiempo"]{
+	margin-left:105px;
+}
+/**/
+label[name="descripcion"]{
+	margin-left:150px;
+    font-weight:bold;	
+	font-size:1.3em;
+}
+.tiempo{
+	margin-left:397px;
+	margin-top:-40px;
+	width:300px;
+	/*height:px;*/
+	/*resize: vertical;/*
+}
+/**/
+input[name="Guardar"]{
+	margin-left:750px;
+	background:#006390;
+	text-shadow: -3px -6px 2px rgba(150, 150, 150, 1);
+}

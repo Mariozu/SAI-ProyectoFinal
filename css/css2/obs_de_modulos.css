@@ -1,0 +1,70 @@
+select{
+	margin-top:100px;
+}
+input[name="buscar"]{
+	margin-top:100;
+}
+label[name="PC_C"]{
+	margin-left:100px;
+}
+label[name="PRP_C"]{
+	margin-left:100px;
+}
+label[name="HR_C"]{
+	margin-left:100px;
+}
+label[name="LD_C"]{
+	margin-left:100px;
+}
+label[name="RP_C"]{
+	margin-left:100px;
+}
+label[name="D_C"]{
+	margin-left:100px;
+}
+label[name="C_C"]{
+	margin-left:100px;
+}
+label[name="P_C"]{
+	margin-left:100px;
+}
+.floatLabel1{
+	margin-left:150px;
+	resize: none;
+	width:350px;
+}
+.floatLabel2{
+	margin-left:17px;
+	resize: none;
+	width:350px;
+}
+.floatLabel3{
+	margin-left:240px;
+	resize: none;
+	width:350px;
+}
+.floatLabel4{
+	margin-left:229px;
+	resize: none;
+	width:350px;
+}
+.floatLabel5{
+	margin-left:121px;
+	resize: none;
+	width:350px;
+}
+.floatLabel6{
+	margin-left:309px;
+	resize: none;
+	width:350px;
+}
+.floatLabel7{
+	margin-left:262px;
+	resize: none;
+	width:350px;
+}
+.floatLabel8{
+	margin-left:297px;
+	resize: none;
+	width:350px;
+}

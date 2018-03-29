@@ -1,0 +1,204 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21-oct-2015, 9:57:24
+    Author     : miguel
+*/
+@charset "utf-8";
+/* CSS Document */
+div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: Arial;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+html {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+a img {
+  border: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+/**************************************************/
+*{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/***************CONTENEDOR***********************/
+.contenedor{
+    width: 100%;
+    background: white;
+}
+/*******************HEADER**********************/
+.cabeza{
+    font-size: 16px;
+    background-color: #006699;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+/**********************************************/
+form {
+  padding: 3%;
+}
+form.form-button{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 0%;
+    padding-bottom: 3%;
+}
+form.cuota{
+    padding-left: 3%;
+    padding-right: 6%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+form.cuota-pay{
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 3%;
+}
+/**********NOMBRE DE LOS APARTADOS***************/
+h2.heading {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: left;
+  color: #506982;
+  border-bottom: 1px solid #506982;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+}
+/********************CONTROLS*******************/
+.controls {
+  text-align: left;
+  position: relative;
+}
+/*********************TABLA*******************/
+form.pays table.table-pays td {    
+    padding: 3px;    
+    background:whitesmoke;    
+    color: #00496B; 
+    font-size: 14px;
+}
+/**************RESPONSIVO*************/
+@media screen and (max-width:600px) {
+    /*******************HEADER**********************/
+    .cabeza{
+        font-size: 14px;
+    }
+    /*******************INICIO DEL PERIODO*************************/
+    label[for="fechainicio"]{
+        font-size: 12px;
+    }
+    input[name="fechaini"]{
+        font-size: 12px;
+    }
+    /*******************FINAL DEL PERIODO*************************/
+    label[for="fechafin"]{
+        font-size: 12px;
+    }
+    input[name="fechafin"]{
+        font-size: 12px;
+    }   
+    /**************BOTON CONSULTAR Y PDF********************/
+    input[name='solicitar']{  
+        width: 70px;
+        font-size: 12px;
+    }    
+    input[name='editar']{  
+        width: 85px;
+        font-size: 12px;
+    } 
+    /*********************TABLA*******************/
+    form.pays table.table-pays td {    
+        font-size: 12px;
+    }    
+}    
+@media screen and (max-width:360px) {
+    /*******************HEADER**********************/
+    .cabeza{
+        font-size: 12px;
+    }
+    /*******************INICIO DEL PERIODO*************************/
+    label[for="fechainicio"]{
+        font-size: 11px;
+    }
+    input[name="fechaini"]{
+        font-size: 11px;
+    }
+    /*******************FINAL DEL PERIODO*************************/
+    label[for="fechafin"]{
+        font-size: 11px;
+    }
+    input[name="fechafin"]{
+        font-size: 11px;
+    } 
+    /**************BOTON CONSULTAR Y PDF********************/
+    input[name='solicitar']{  
+        font-size: 10px;
+        font-weight: bold;
+    } 
+    input[name='pdf']{  
+        width: 85px;
+        font-size: 10px;
+        font-weight: bold;
+    }    
+    /*********************TABLA*******************/
+    form.pays table.table-pays td {    
+        font-size: 11px;
+    }      
+    /********************TD TABLA PERIODO INI & FIN*******************/
+    .table-ini-fin{
+        width: 100%;
+    }
+    .td-fi-label{
+        width: 10%;
+    }
+    .td-fi-input{
+        width: 15%;
+    }
+}    

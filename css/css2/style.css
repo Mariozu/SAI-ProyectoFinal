@@ -1,0 +1,169 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+body{
+    font-family: 'Open Sans', sans-serif;
+	font-size:100%;
+	background: url(../images/planEstrategico.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font-weight: 300;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.form {
+	padding: 0 1.9em 1.9em 2em;
+	margin-top: 15px;
+}
+
+.contact-form{
+	z-index:200;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	/*background: #006390;*/
+	width:320px;
+	background:rgba(0, 99, 144, 0.55);
+	margin: 5% auto;
+	height:415px;
+}
+.logo{
+	text-align: center;
+}
+.imagen-inicio{
+	margin-center:50%;
+	margin-top: 30px;
+}
+.logo h1 {
+	font-size: 1.9em;
+	color:  #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.41);
+	padding: 13px 0 0px;
+	font-weight: bold;
+}
+.form ul {
+	text-align: center;
+	margin: 0px auto;
+}
+.form li{ 
+	background:rgba(79, 72, 78, 0.60);
+	margin: auto;
+	/*float: left;*/
+	height: 35px;
+	width: 80%;
+	outline: none;
+	font-weight: 600;
+	margin-top: 7%;
+	border-radius:5px;
+	position:relative;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius: 5px;
+	text-align: center;
+	box-shadow: inset 0px 0px 5px #090909;
+	-webkit-box-shadow: inset 0px 0px 5px #090909;
+	-moz-box-shadow: inset 0px 0px 5px #090909;
+	-o-box-shadow: inset 0px 0px 5px #090909;
+}
+.form li label{
+	float: left;
+	padding-top: 12px;
+	width: 20%;
+	cursor: pointer;
+}
+.form li.style{ 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#77a033', endColorstr='#52761c',GradientType=0 ); /* IE6-9 */
+	margin-top: 40px;
+	display:block;
+	display: block;
+	box-shadow: 0px -1px 4px #000;
+	-webkit-box-shadow: 0px 0px 7px #030303;
+	-moz-box-shadow: 0px 0px 7px #030303;
+	-o-box-shadow: 0px 0px 7px #030303;
+	transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+	-moz-transition: all 0.5s ease-out;
+	-ms-transition: all 0.5s ease-out;
+	-o-transition: all 0.5s ease-out;
+}
+.form li.style input{
+	text-align: center;
+	width: 100%;
+	font-size: 0.9em;
+	font-family: 'Open Sans', sans-serif;
+	padding: 8px 0px;
+	border: none;
+	outline: none;
+	color:  #cbcbcb;
+	cursor: pointer;
+}
+input[name="email"]{
+	margin-left: -3px;
+	font-family: 'Open Sans', sans-serif;
+	text-align:center;
+	font-size: 0.8em;
+	padding: 5px 0px;
+	margin-top:4px;
+	width: 79%;
+	border-radius:2px;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	background:rgba(48, 44, 47, 0.40);
+}
+input[name="contrasena"]{
+	margin-left: -3px;	
+	font-family: 'Raleway';
+	text-align:center;
+	font-size: 0.8em;
+	padding: 6px 0px;
+	margin-top:4px;
+	width: 79%;
+	border-radius:2px;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	background:rgba(48, 44, 47, 0.40);
+}
+input[name="aceptar"]{
+	font-family: 'Open Sans', sans-serif;
+	float: left;
+	font-size: 0.9em;
+	padding: 10px 0px;
+	width: 79%;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	font-weight:bold;
+	background:  #25A0AB;
+}
+input:hover{
+	background: #1e838c;
+	}
+	
+	
+.barra-inferior{
+	position: absolute;
+    left: 0;
+    right: 50;
+    z-index: -1;
+	bottom: 0;
+    width: 100%;
+	height:10%;
+    min-height: 20px;
+    border: none;
+    -webkit-transition: -webkit-transform 0.3s;
+    transition: transform 0.3s;
+	background:rgba(0, 99, 144, 0.55);
+}
+.imagen{
+	width:17%;
+	margin-left:80%;
+	height:90%;
+	margin-top: 3px;
+}
+img{
+	max-width:100%;
+	margin-top: -30px;
+}
